@@ -1,4 +1,4 @@
--- Verify devop:init on pg
+-- Verify DEVOP:init on pg
 
 BEGIN;
 

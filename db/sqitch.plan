@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=DevOp
+%uri=https://github.com/kokonattuDream/DevOp.git
+
+init 2016-06-13T16:05:29Z DevOp <kerjohn.chen@gmail.com> # Initialize the DevOp database
+product-add-comments 2016-06-19T04:39:54Z DevOp <kerjohn.chen@gmail.com> # add new column "comments" to product
