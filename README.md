@@ -185,5 +185,26 @@ sudo ./install auto
 	Enter "*****" in Schedule (Jenkins will detect changes in source code in every minutue)
 	
 4. 	In Build,
-
+		
+	node -v
+	
+	npm -v
+	
+	npm install
+	
+	export NODE_ENV=production
+	
+	export DB_PRD_HOST=devop.cnmmii20ccez.us-east-2.rds.amazonaws.com
+	
+	export DB_PRD_USER=devop
+	
+	export DB_PRD_PASS=devopdevop
+	
+	export NODE_HOST=localhost
+	
+	export NODE_PORT=8080
+	
+	npm test
+	
+5.      In Post-Build Action, select AWS CodePipeline Publisher
 	
