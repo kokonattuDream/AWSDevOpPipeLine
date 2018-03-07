@@ -30,16 +30,27 @@ IAM instance profile
 3. Create new policy to get permission to access s3 buckets
 
 4. Include below Json data in policy document
+
 {
+
   "Version": "2012-10-17",
+  
   "Statement": {
+  
     "Effect": "Allow",
+    
     "Action": [
+    
 	"s3:Get*",
+	
 	"s3:List*"
+	
 	],
+	
     "Resource": "*"
+    
   }
+  
 }
 
 5. => Roles
@@ -209,7 +220,9 @@ sudo ./install auto
 	
 	npm test
 	
+	
 5.      In Post-Build Action, select AWS CodePipeline Publisher
+
 
 •       AWS CodePipeline
 
