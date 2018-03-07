@@ -161,3 +161,29 @@ sudo ./install auto
 5.	In Service Role, select the service role we have created before for AWS CodeDeploy
 
 6.	Create appSpec.yml file in node.js app
+
+•	Create Jenkins Job
+
+1. 	Create New Job
+
+2.	In Source Code Management,
+	
+	References: https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/
+
+	Enter AWS Access Key and secrete key
+	
+	Enter Build or Test in Category
+	
+	Enter AWS CodePipeline name in Provide
+	
+	Enter AWS CodePipeline version in Version
+	
+3. 	In Build Triggers,
+
+	Check Poll SCM
+	
+	Enter "*****" in Schedule (Jenkins will detect changes in source code in every minutue)
+	
+4. 	In Build,
+
+	
