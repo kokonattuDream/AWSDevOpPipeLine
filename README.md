@@ -210,4 +210,28 @@ sudo ./install auto
 	npm test
 	
 5.      In Post-Build Action, select AWS CodePipeline Publisher
+
+•       AWS CodePipeline
+
+1. 	In Source provider, select GitHub
+
+2. 	Connect to GitHub
+
+3. 	In Repository, Enter repository
+
+4. 	In Build,
+
+	Builder provider:Add Jenkins
+
+	Provider Name: the provider name in Jenkins Job
+
+	Server URL: the url of Jenkins Server
+
+	Project: Jenkins' Project Name
+
+5. 	In Deployment Provider, AWS CodeDeploy
+
+6. 	Select App name and deployment group that created before
+
+7. 	Service Role, select role that created before
 	
