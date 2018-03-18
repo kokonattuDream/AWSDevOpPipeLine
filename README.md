@@ -113,7 +113,7 @@ Reference: https://vexxhost.com/resources/tutorials/how-to-install-configure-and
 
 “sudo apt-get update”
 
-“sudo apt-get install Jenkins”
+“sudo apt-get install jenkins”
 
 11.	Start Jenkins Server
 
