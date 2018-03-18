@@ -103,11 +103,11 @@ Reference: https://vexxhost.com/resources/tutorials/how-to-install-configure-and
 
 9.	Open terminal and 
 
-“ssh -i <private key file>.pem ubuntu@<public DNS>”
+“ssh -i private key file.pem ubuntu@public DNS”
 	
 10.	Install Jenkins
 
-“wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add –“
+“wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add“
 
 “echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list”
 
