@@ -119,7 +119,7 @@ Reference: https://vexxhost.com/resources/tutorials/how-to-install-configure-and
 
 “sudo service jenkins status”
 
-12.	Go to <public DNS address>:8080 in any browser
+12.	Go to public DNS address:8080 in any browser
 	
 13.	Copy the path in Jenkins page to find initial password
 
